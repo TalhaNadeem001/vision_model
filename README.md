@@ -1,14 +1,13 @@
-# CENG4480 Final Project - Voice Based AI Assistant with ChatGPT on Raspberry Pi
-This project is an implementation of a voice-based AI assistant using OpenAI's ChatGPT and Bing on a Raspberry Pi. The assistant listens for the wake word "Hey Ras Pi" and then processes the user's query, providing an appropriate response. The project demonstrates how to integrate multiple language models and APIs to create a more robust and context-aware AI assistant.
+## Voice Assistant integrated with chatgpt to be run on Raspberry Pi
 
 ## Features
 - Wake word detection using Porcupine
 - Speech recognition with Google Speech Recognition
-- AI-based chat using ChatGPT and unoffical Bing APIs
-- Multilingual support for English, Mandarin, and Cantonese
+- AI-based chat using ChatGPT 
 - Text-to-Speech using Google Text-to-Speech (gTTS)
-- Context-Aware interactions for both ChatGPT and Bing based on conversation history
-- Time-sensitive question filtering using custom NLP function
+- Context-Aware interactions for chatGPT based on conversation history
+- Increased Personalization functionality of LLM for User interaction
+- Can act as a teacher for any document you upload
 
 ## Installation
 1. Clone the repository
